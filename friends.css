@@ -1,0 +1,98 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: 10%;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: navy;
+    color: white;
+    justify-content: space-between;
+    padding:15px;
+    border: 1px solid;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar h3{
+    margin: 0;
+}
+.photo{
+    border: 0.5px solid gainsboro;
+}
+.photo a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: 17px;
+    margin-top: 0;
+}
+.menu ul li p{
+    border: 0.5px solid gainsboro;
+    padding: 5px 10px;
+    margin: 0;
+}
+.profile{
+    flex-wrap: wrap;
+    width: 23%;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.friends{
+    flex-wrap: wrap;
+    width: 50%;
+}
+.friends-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.friends img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.friends h3{
+    margin: 0 10px;
+}
+.friends p{
+    margin: 0;
+    margin: 10px 0px 10px 10px;
+}
+.friends button{
+    margin-left: 10px;
+    color: white;
+}
+.not{
+    flex-wrap: wrap;
+    width: 23%;
+}
+.not div{
+    border:0.5px solid gainsboro;
+}
+.not h4{
+    padding: 10px 10px 0 10px;
+    margin: 0;
+}
+.not p{
+    padding: 0 10px;
+    margin: 0;
+}
+.not p:last-child{
+    padding-bottom: 10px;
+}
